@@ -155,7 +155,7 @@
 特征是除了主(次)对角线或与其相邻得一条斜线所组成的任意一条线加四个顶点中的某个顶点外,其他元素均为<img src="http://latex.codecogs.com/gif.latex?0"/>,这类行列式可以直接展开降阶.这段描述有点繁琐,但其实也并不复杂,请看下例理解(空白处都为0):
 
 <div><p align="center">
-<img src="http://latex.codecogs.com/gif.latex?D_n%3D%5Cbegin%7Bbmatrix%7D%20a_1%26b_1%26%20%26...%20%26%5C%5C%20%26a_2%26b_2%26...%26%5C%5C%20%26%26a_3%26...%26%5C%5C%20%26%26%26%5C%5C%20%26%26...%26a_%7Bn-1%7D%26b_%7Bn-1%7D%20%5C%5C%20b_n%26%26...%26%26a_n%20%5Cend%7Bbmatrix%7D"/>
+<img src="http://latex.codecogs.com/gif.latex?eg%3AD_n%3D%5Cbegin%7Bbmatrix%7D%20a_1%26b_1%26%20%26...%20%26%5C%5C%20%26a_2%26b_2%26...%26%5C%5C%20%26%26a_3%26...%26%5C%5C%20%26%26%26%5C%5C%20%26%26...%26a_%7Bn-1%7D%26b_%7Bn-1%7D%20%5C%5C%20b_n%26%26...%26%26a_n%20%5Cend%7Bbmatrix%7D"/>
 </p></div>
 
 <img src="http://latex.codecogs.com/gif.latex?Solution"/>: 按照第一列两个非<img src="http://latex.codecogs.com/gif.latex?0"/>元素拉普拉斯展开即可

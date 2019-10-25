@@ -129,7 +129,7 @@
 ### 3.一些每行上有公因子但是无法向上式那样在保持行列式不变得基础上能提出公因子的,采用**升阶法**,请看下例
 
 <div><p align="center">
-<img src="http://latex.codecogs.com/gif.latex?D_n%3D%5Cbegin%7Bbmatrix%7D%201&plus;x_%7B1%7D%5E2%26x_1x_2%26x_1x_3%20%26...%20%26x_1x_n%5C%5C%20x_2x_1%261&plus;x_%7B2%7D%5E2%26x_2x_3%26...%26x_2x_n%5C%5C%20x_3x_1%26x_3x_2%261&plus;x_%7B3%7D%5E2%26...%26x_3x_n%5C%5C%20...%26...%26...%26...%26...%5C%5C%20x_nx_1%26x_nx_2%26x_nx_3%26...%261&plus;x_%7Bn%7D%5E2%20%5Cend%7Bbmatrix%7D"/>
+<img src="http://latex.codecogs.com/gif.latex?eg4%3AD_n%3D%5Cbegin%7Bbmatrix%7D%201&plus;x_%7B1%7D%5E2%26x_1x_2%26x_1x_3%20%26...%20%26x_1x_n%5C%5C%20x_2x_1%261&plus;x_%7B2%7D%5E2%26x_2x_3%26...%26x_2x_n%5C%5C%20x_3x_1%26x_3x_2%261&plus;x_%7B3%7D%5E2%26...%26x_3x_n%5C%5C%20...%26...%26...%26...%26...%5C%5C%20x_nx_1%26x_nx_2%26x_nx_3%26...%261&plus;x_%7Bn%7D%5E2%20%5Cend%7Bbmatrix%7D"/>
 </p></div>
 
 <img src="http://latex.codecogs.com/gif.latex?Solution"/>:  加边升阶,得:

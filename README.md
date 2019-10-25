@@ -14,7 +14,7 @@
 2. [两三角型行列式](#%E4%BA%8C%E4%B8%A4%E4%B8%89%E8%A7%92%E5%9E%8B%E8%A1%8C%E5%88%97%E5%BC%8F--------------------%E8%BF%94%E5%9B%9E%E7%9B%AE%E5%BD%95)
 3. [两条线型行列式](#%E4%B8%89%E4%B8%A4%E6%9D%A1%E7%BA%BF%E5%9E%8B%E8%A1%8C%E5%88%97%E5%BC%8F--------------------%E8%BF%94%E5%9B%9E%E7%9B%AE%E5%BD%95)
 4. [范德蒙德型行列式](#%E5%9B%9B%E8%8C%83%E5%BE%B7%E8%92%99%E5%BE%B7%E5%9E%8B%E8%A1%8C%E5%88%97%E5%BC%8F--------------------%E8%BF%94%E5%9B%9E%E7%9B%AE%E5%BD%95)
-5. [<img src="http://latex.codecogs.com/gif.latex?Hessenberg"/>型行列式](#%E4%BA%94%E5%9E%8B%E8%A1%8C%E5%88%97%E5%BC%8F--------------------%E8%BF%94%E5%9B%9E%E7%9B%AE%E5%BD%95)
+5. [<img src="http://latex.codecogs.com/gif.latex?%5Cfn_jvn%20%5Clarge%20Hessenberg"/>型行列式](#%E4%BA%94%E5%9E%8B%E8%A1%8C%E5%88%97%E5%BC%8F--------------------%E8%BF%94%E5%9B%9E%E7%9B%AE%E5%BD%95)
 6. [三对角型行列式](#%E5%85%AD%E4%B8%89%E5%AF%B9%E8%A7%92%E5%9E%8B%E8%A1%8C%E5%88%97%E5%BC%8F--------------------%E8%BF%94%E5%9B%9E%E7%9B%AE%E5%BD%95)
 7. [各行元素和相等型行列式](#%E4%B8%83%E5%90%84%E8%A1%8C%E5%85%83%E7%B4%A0%E5%92%8C%E7%9B%B8%E7%AD%89%E5%9E%8B%E8%A1%8C%E5%88%97%E5%BC%8F--------------------%E8%BF%94%E5%9B%9E%E7%9B%AE%E5%BD%95)
 8. [相邻两行对应元素相差K倍型行列式](#%E5%85%AB%E7%9B%B8%E9%82%BB%E4%B8%A4%E8%A1%8C%E5%AF%B9%E5%BA%94%E5%85%83%E7%B4%A0%E7%9B%B8%E5%B7%AEk%E5%80%8D%E5%9E%8B%E8%A1%8C%E5%88%97%E5%BC%8F--------------------%E8%BF%94%E5%9B%9E%E7%9B%AE%E5%BD%95)
@@ -70,13 +70,13 @@
 即化成了箭型行列式,所以:
 
 <div><p align="center">
-<img src="http://latex.codecogs.com/gif.latex?D_n%3D%5B%5Cprod_%7Bi%3D2%7D%5E%7Bn%7D%28x_i-b%29%5D%5Ctimes%5Bx_1-b%28b-x_1%29%5Csum_%7Bi%3D2%7D%5E%7Bn%7D%5Cfrac%7B1%7D%7Bx_i-b%7D%5Dhttp://latex.codecogs.com/gif.latex?D_n=[\prod_{i=2}^{n}(x_i-b)]\times[x_1-b(b-x_1)\sum_{i=2}^{n}\frac{1}{x_i-b}]"/>
+<img src="http://latex.codecogs.com/gif.latex?D_n%3D%5B%5Cprod_%7Bi%3D2%7D%5E%7Bn%7D%28x_i-b%29%5D%5Ctimes%5Bx_1-b%28b-x_1%29%5Csum_%7Bi%3D2%7D%5E%7Bn%7D%5Cfrac%7B1%7D%7Bx_i-b%7D%5D"/>
 </p></div>
 
 ***
 
 <div><p align="center">
-<img src="http://latex.codecogs.com/gif.latex?D_n%3D%5Cbegin%7Bbmatrix%7D%20x_1%26a%26a%20%26...%20%26a%5C%5C%20b%26x_2%26a%26...%26a%5C%5C%20b%26b%26x_3%26...%26a%5C%5C%20...%26...%26...%26...%26...%5C%5C%20b%26b%26b%26...%26x_n%20%5Cend%7Bbmatrix%7D"/>
+<img src="http://latex.codecogs.com/gif.latex?eg2%28a%5Cnot%3Db%29%3AD_n%3D%5Cbegin%7Bbmatrix%7D%20x_1%26a%26a%20%26...%20%26a%5C%5C%20b%26x_2%26a%26...%26a%5C%5C%20b%26b%26x_3%26...%26a%5C%5C%20...%26...%26...%26...%26...%5C%5C%20b%26b%26b%26...%26x_n%20%5Cend%7Bbmatrix%7D"/>
 </p></div>
 
 <img src="http://latex.codecogs.com/gif.latex?Solution"/>:  采用拆行法,目的是为了降阶
@@ -89,24 +89,24 @@
 <img src="http://latex.codecogs.com/gif.latex?D_n%3D%5Cbegin%7Bbmatrix%7D%20x_1%26a%26a%20%26...%20%26a%5C%5C%20b%26x_2%26a%26...%26a%5C%5C%20b%26b%26x_3%26...%26a%5C%5C%20...%26...%26...%26...%26...%5C%5C%20b%26b%26b%26...%26b%20%5Cend%7Bbmatrix%7D_%7B%28*%29%7D&plus;%20%5Cbegin%7Bbmatrix%7D%20x_1%26a%26a%20%26...%20%260%5C%5C%20b%26x_2%26a%26...%260%5C%5C%20b%26b%26x_3%26...%260%5C%5C%20...%26...%26...%26...%26...%5C%5C%20b%26b%26b%26...%26x_n-b%20%5Cend%7Bbmatrix%7D"/>
 </p></div>
 
-将第 <img src="http://latex.codecogs.com/gif.latex?i,i=1...n-1"/> 列都减去最后一列,得:
+将<img src="http://latex.codecogs.com/gif.latex?(*)"/>第 <img src="http://latex.codecogs.com/gif.latex?i,i=1...n-1"/> 列都减去最后一列,得:
 
 <div><p align="center">
-<img src="http://latex.codecogs.com/gif.latex?D_n%3D%5Cbegin%7Bbmatrix%7D%20x_1-a%260%260%20%26...%20%26a%5C%5C%20b-a%26x_2-a%260%26...%26a%5C%5C%20b-a%26b-a%26x_3-a%26...%26a%5C%5C%20...%26...%26...%26...%26...%5C%5C%200%260%260%26...%26b&plus;%28x_n-b%29D_%7Bn-1%7D%20%5Cend%7Bbmatrix%7D"/>
+<img src="http://latex.codecogs.com/gif.latex?D_n%3D%5Cbegin%7Bbmatrix%7D%20x_1-a%260%260%20%26...%20%26a%5C%5C%20b-a%26x_2-a%260%26...%26a%5C%5C%20b-a%26b-a%26x_3-a%26...%26a%5C%5C%20...%26...%26...%26...%26...%5C%5C%200%260%260%26...%26b%20%5Cend%7Bbmatrix%7D&plus;%28x_n-b%29D_%7Bn-1%7D"/>
 </p></div>
 
 所以:
 <div><p align="center">
-<img src="http://latex.codecogs.com/gif.latex?D_n%3Db%5Cprod_%7Bi%3D1%7D%5E%7Bn-1%7D%28x_i-a%29&plus;%28x_n-b%29D_%7Bn-1%7D"/>
+<img src="http://latex.codecogs.com/gif.latex?D_n%3Db%5Cprod_%7Bi%3D1%7D%5E%7Bn-1%7D%28x_i-a%29&plus;%28x_n-b%29D_%7Bn-1%7D%281%29"/>
 </p></div>
 
 再由行列式转置不变性得到:
 
 <div><p align="center">
-<img src="http://latex.codecogs.com/gif.latex?D_n%3Da%5Cprod_%7Bi%3D1%7D%5E%7Bn-1%7D%28x_i-b%29&plus;%28x_n-a%29D_%7Bn-1%7D"/>
+<img src="http://latex.codecogs.com/gif.latex?D_n%3Da%5Cprod_%7Bi%3D1%7D%5E%7Bn-1%7D%28x_i-b%29&plus;%28x_n-a%29D_%7Bn-1%7D%282%29"/>
 </p></div>
 
-联立<img src="http://latex.codecogs.com/gif.latex?(11)(12)"/> ,得通式:
+联立<img src="http://latex.codecogs.com/gif.latex?(1)(2)"/> ,得通式:
 
 <div><p align="center">
 <img src="http://latex.codecogs.com/gif.latex?D_n%3D%5Cfrac%7B1%7D%7Ba-b%7D%5Ba%5Cprod_%7Bi%3D1%7D%5E%7Bn%7D%28x_i-b%29-b%5Cprod_%7Bj%3D1%7D%5E%7Bn%7D%28x_j-a%29%5D"/>
@@ -115,7 +115,7 @@
 ### 2.通过适当变换可以化为两三角型行列式的,描述不如大家自己看例子揣摩,也很容易理解的,请看下例
 
 <div><p align="center">
-<img src="http://latex.codecogs.com/gif.latex?D_n%3D%5Cbegin%7Bbmatrix%7D%20d%26b%26b%20%26...%20%26b%5C%5C%20c%26x%26a%26...%26a%5C%5C%20c%26a%26x%26...%26a%5C%5C%20...%26...%26...%26...%26...%5C%5C%20c%26a%26a%26...%26x%20%5Cend%7Bbmatrix%7D"/>
+<img src="http://latex.codecogs.com/gif.latex?eg3%3AD_n%3D%5Cbegin%7Bbmatrix%7D%20d%26b%26b%20%26...%20%26b%5C%5C%20c%26x%26a%26...%26a%5C%5C%20c%26a%26x%26...%26a%5C%5C%20...%26...%26...%26...%26...%5C%5C%20c%26a%26a%26...%26x%20%5Cend%7Bbmatrix%7D"/>
 </p></div>
 
 <img src="http://latex.codecogs.com/gif.latex?Solution"/>: 将第一行乘上 <img src="http://latex.codecogs.com/gif.latex?\frac{a}{b}"/> ,第一列乘上 <img src="http://latex.codecogs.com/gif.latex?\frac{a}{c}"/> ,得:
@@ -184,12 +184,12 @@
 <img src="http://latex.codecogs.com/gif.latex?D_n%3D%5Cprod_%7B1%5Cle%20i%3Cj%5Cle%20n&plus;1%7D%28a_ib_j-b_ia_j%29"/>
 </p></div>
 
-## 五:<img src="http://latex.codecogs.com/gif.latex?Hessenberg"/>型行列式 ------------------> [返回目录](#%E5%85%AB%E5%A4%A7%E5%B8%B8%E8%A7%81%E7%B1%BB%E5%9E%8B%E7%9A%84%E8%A1%8C%E5%88%97%E5%BC%8F%E5%8F%8A%E5%85%B6%E8%A7%A3%E6%B3%95)
+## 五:<img src="http://latex.codecogs.com/gif.latex?%5Cfn_jvn%20%5Clarge%20Hessenberg"/>型行列式 ------------------> [返回目录](#%E5%85%AB%E5%A4%A7%E5%B8%B8%E8%A7%81%E7%B1%BB%E5%9E%8B%E7%9A%84%E8%A1%8C%E5%88%97%E5%BC%8F%E5%8F%8A%E5%85%B6%E8%A7%A3%E6%B3%95)
 
 特征为除了主(次)对角线及与其相邻的斜线,再加上第一行(列)或第<img src="http://latex.codecogs.com/gif.latex?n"/>行(列)外,其余元素均为<img src="http://latex.codecogs.com/gif.latex?0"/>.这类行列式有点像前面说的两条线型行列式,但是还是有一点区别的.这类行列式都用**累加消点法**,即通常将某一行(列)都化简到只有一个非<img src="http://latex.codecogs.com/gif.latex?0"/>元素,以便于降阶计算,请看下例
 
 <div><p align="center">
-<img src="http://latex.codecogs.com/gif.latex?D_n%3D%5Cbegin%7Bbmatrix%7D%201%262%263%20%26...%20%26n-1%26n%5C%5C%201%26-1%26%26%26%26%5C%5C%20%262%26-2%26...%5C%5C%20...%26...%26...%26...%26...%26...%5C%5C%20%26%26%26n-2%262-n%26%5C%5C%20%26%26%26...%26n-1%261-n%20%5Cend%7Bbmatrix%7D"/>
+<img src="http://latex.codecogs.com/gif.latex?eg%3AD_n%3D%5Cbegin%7Bbmatrix%7D%201%262%263%20%26...%20%26n-1%26n%5C%5C%201%26-1%26%26%26%26%5C%5C%20%262%26-2%26...%5C%5C%20...%26...%26...%26...%26...%26...%5C%5C%20%26%26%26n-2%262-n%26%5C%5C%20%26%26%26...%26n-1%261-n%20%5Cend%7Bbmatrix%7D"/>
 </p></div>
 
 <img src="http://latex.codecogs.com/gif.latex?Solution"/>:  将各列都加到第一列,得到:
